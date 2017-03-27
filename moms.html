@@ -1,0 +1,7 @@
+<p>Hej {{yourName}} </p>
+<h3>Vill du räkna ut vad momsen är? Skvriv in ett belopp.</h3>
+<div ng-controller="momsController">
+	<input type="text" name="value" ng-model="moms">
+	<button ng-click="f()">Check</button>
+	<p>Momsen är; {{ momsValue }} kr.</p>
+</div>
